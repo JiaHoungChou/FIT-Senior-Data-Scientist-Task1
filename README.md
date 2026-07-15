@@ -141,8 +141,6 @@ A more interpretable comparison is the number of errors. The baseline model misc
 
 Test loss decreased from 0.0395 to 0.0334, which is a **15.4% relative reduction**. The lower loss suggests that the augmented model was not only slightly more accurate but also produced better-calibrated or more confident correct predictions on average.
 
-![Final test metric comparison](imgs/test_metric_comparison.png)
-
 ## 8. Minority-Class Effect
 
 The clearest class-level improvement occurred for class 9:
@@ -155,7 +153,7 @@ Class 9's error rate decreased from approximately 7% to 4%. This corresponds to 
 
 The normalized confusion matrices also show that class 9 was less frequently confused with classes 5 and 8 after augmentation. However, the benefit was not uniform across all classes. For example, class 7 recall changed from approximately 0.99 to 0.98. GAN augmentation therefore redistributed class-level performance rather than improving every class simultaneously.
 
-![GAN-Augmented CNN normalized confusion matrix](figures/gan_augmented_cnn_confusion_matrix.png)
+![GAN-Augmented CNN normalized confusion matrix](imgs/test_metric_comparison.png)
 
 ## 9. Main Data-Driven Findings
 
