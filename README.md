@@ -49,11 +49,11 @@ The high aggregate accuracy shows that the simulated imbalance did not cause a l
 
 Class 9 had only 535 real training samples and achieved a recall of approximately **0.93**, which was substantially lower than the recalls of most other classes. Its errors were distributed mainly across visually similar digits such as 3, 4, 5, 7, and 8. This result indicates that aggregate accuracy alone can hide minority-class degradation.
 
-![Baseline CNN loss curves](figures/baseline_cnn_loss_curve.png)
+![Baseline CNN loss curves](imgs/baseline_cnn_loss_curve.png)
 
-![Baseline CNN accuracy curves](figures/baseline_cnn_accuracy_curve.png)
+![Baseline CNN accuracy curves](imgs/baseline_cnn_accuracy_curve.png)
 
-![Baseline CNN normalized confusion matrix](figures/baseline_cnn_confusion_matrix.png)
+![Baseline CNN normalized confusion matrix](imgs/baseline_cnn_confusion_matrix.png)
 
 ## 4. GAN-Based Data Augmentation
 
