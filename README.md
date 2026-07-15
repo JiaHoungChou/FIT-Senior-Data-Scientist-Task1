@@ -29,7 +29,7 @@ The original training split was intentionally reduced using progressively smalle
 
 Class 1 contained 6,068 samples, whereas class 9 contained only 535. The largest-to-smallest class ratio was therefore approximately **11.34:1**. This imbalance was sufficiently large to affect the model's early class-balanced learning, even though MNIST remained a relatively easy classification problem.
 
-![Distribution of the training, validation, and test datasets](figures/dataset_label_distribution.png)
+![Distribution of the training, validation, and test datasets](imgs/dataset_label_distribution.png)
 
 ## 3. Baseline CNN Performance under Imbalance
 
