@@ -75,9 +75,9 @@ The Conditional GAN generated enough samples to increase every class to the larg
 
 The final training dataset was perfectly balanced and increased from 31,594 to 60,680 samples. However, almost half of the final data were synthetic. Class 9 was particularly dependent on generated samples: 91.2% of its final training data came from the GAN. This high synthetic proportion is important when interpreting both the improvement and the potential risk of distribution mismatch.
 
-![GAN training class distribution](figures/gan_training_class_distribution.png)
+![GAN training class distribution](imgs/gan_training_class_distribution.png)
 
-![Class distribution before and after GAN augmentation](figures/class_distribution_before_after_gan.png)
+![Class distribution before and after GAN augmentation](imgs/class_distribution_before_after_gan.png)
 
 ## 5. GAN Training Behavior
 
@@ -87,11 +87,9 @@ This pattern does not necessarily mean that the final generator became worse. GA
 
 Nevertheless, one displayed image per class is insufficient to prove diversity or rule out mode collapse. A larger generated-image sample and an independent quality measure would be required for a stronger conclusion.
 
-![Conditional GAN training dynamics](figures/conditional_gan_loss_curve.png)
+![Generated samples at epoch 10](imgs/generated_samples_epoch_010.png)
 
-![Generated samples at epoch 10](figures/generated_samples_epoch_010.png)
-
-![Generated samples at epoch 100](figures/generated_samples_epoch_100.png)
+![Generated samples at epoch 100](imgs/generated_samples_epoch_100.png)
 
 ## 6. Training Convergence Analysis
 
